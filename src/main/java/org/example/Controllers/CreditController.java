@@ -30,6 +30,7 @@ public class CreditController {
         installment = new ArrayList<HashMap<String,String>>();
         view.run();
     }
+
     public CreditController(String param) {
         view = new CreditView();
         this.view.setController(this);
