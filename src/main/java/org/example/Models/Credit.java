@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public abstract class Credit {
+public class Credit {
     private String vehicleType,vehicleYear,vehicleCondition;
     private int loan,tenor,dp;
     private float baseInterest,interest1,interest2;
