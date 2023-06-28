@@ -1,8 +1,8 @@
 # credit_simulator
 
-**.git clone**
+**.git clone project**
 ```
-https://github.com/jordyjonathans/credit_simulator/
+git clone https://github.com/jordyjonathans/credit_simulator/
 ```
 
 **run**
