@@ -156,9 +156,6 @@ public class CreditController {
     public List<HashMap<String,String>> getInstallment(){
         installment.clear();
 
-        NumberFormat formatter = NumberFormat.getCurrencyInstance();
-
-
         HashMap<String,String> hMap;
         float sisa = 0;
         float lastInterest = 0;

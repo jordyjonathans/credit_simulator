@@ -13,7 +13,7 @@ interface CreditServiceInterface{
 
 public class CreditService  implements CreditServiceInterface{
 
-    private CreditService(){
+    public CreditService(){
         super();
     };
     private static class CreditServiceHelper{
