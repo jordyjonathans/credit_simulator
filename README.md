@@ -20,10 +20,16 @@ $ java -jar credit_simulator.jar credit_simulator.txt
 $ java -jar credit_simulator.jar http://www.mocky.io/v2/5d11a58d310000b23508cd62
 ```
 
+**run unit test**
+```
+mvn test
+```
+
 **build docker image**
 ```
 docker build -t credit-simulator-image .
-``` 
+```
+
 
 
 **run docker image**
