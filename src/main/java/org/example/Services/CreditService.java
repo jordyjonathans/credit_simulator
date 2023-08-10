@@ -29,6 +29,7 @@ public class CreditService  implements CreditServiceInterface{
         // Use try and catch to avoid the exceptions
         try
         {
+            //test
             URL url = new URL(urlString); // creating a url object
             URLConnection urlConnection = url.openConnection(); // creating a urlconnection object
 
